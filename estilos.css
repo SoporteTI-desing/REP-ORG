@@ -377,6 +377,7 @@ header{
 .card:nth-child(2){ --card-accent: var(--p-1119); }
 .card:nth-child(3){ --card-accent: var(--p-11012); }
 .card:nth-child(4){ --card-accent: var(--p-7546); }
+.card:nth-child(5){ --card-accent: var(--p-1091); }
 
 .card-top{
   display:flex;
