@@ -517,6 +517,12 @@ footer .dot{
 :root[data-theme="light"] .go-arrow{ color: var(--text-dim); }
 :root[data-theme="light"] .brand-fallback em{ color: var(--text-dim); }
 :root[data-theme="light"] .card h3{ color: var(--text); }
+:root[data-theme="light"] .intro h1{
+  /* degradado más intenso/oscuro que el de tema oscuro, para que se lea bien sobre fondo claro */
+  background: linear-gradient(90deg, var(--p-7686) 0%, #3E5170 40%, var(--p-7546) 75%, #333A42 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
 
 /* -- Selector de tema -- */
 .theme-toggle{
